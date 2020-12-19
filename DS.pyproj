@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ddddd68c-5a86-40cf-a0fc-efba21ad7a91</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>fact.py</StartupFile>
+    <StartupFile>TestCode.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,8 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="fact.py" />
-    <Compile Include="module1.py">
+    <Compile Include="Recursion.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestCode.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
