@@ -1,3 +1,8 @@
-import Recursion
-test_obj = Recursion.Recursion()
-print(test_obj.isSorted([1,3,5,11,13,14]))
+from LinkedList import LinkedList
+ll = LinkedList()
+ll.insertatbeginning(10)
+ll.insertatbeginning(9)
+ll.insertatbeginning(8)
+ll.insertatend(11)
+print(ll.length())
+ll.print()
